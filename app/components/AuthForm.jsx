@@ -10,7 +10,7 @@ export default function AuthForm(){
   return (
     <Auth
       supabaseClient={supabase}
-      view="magic_link"
+      view="sign_up"
       showLinks={false}
       providers={[]}
       redirectTo='http://localhost:3000/auth/callback'
